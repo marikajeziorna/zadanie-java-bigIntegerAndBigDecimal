@@ -9,10 +9,6 @@ public class SalesStatementList {
         salesStatementsList.add(salesStatement);
     }
 
-    public void add(SalesStatementList salesStatementList) {
-        salesStatementList.add(salesStatementList);
-    }
-
     public double sumOfSalesGross() {
         double sum = 0;
         for (SalesStatement salesStatement : salesStatementsList) {
