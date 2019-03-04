@@ -24,7 +24,7 @@ public class SalesStatement {
     }
 
    public BigDecimal calcNett(){
-     return new BigDecimal (grossPrice / vatRate);
+     return new BigDecimal (grossPrice * vatRate/100);
    }
 }
 
